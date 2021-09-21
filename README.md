@@ -39,7 +39,7 @@ For  each  item  below  you  must  answer  with  only  one  of  the  following: 
 #### 10 Task before submission
 Teams must collaborate in creating M1 document by having working M1 document on  their  team  GitHub  repository  (similar  to  managing  code)  so  all  team  members can  access  it.  Added  advantage  of  doing  it  this  way  is  that  it  builds  teamwork  and communication.  We  recommend  having  a  folder  for  project  documentation  on team’s GitHub where milestones and other similar files can be kept.
 
-#### Submission
+#### 11 Submission
 Each  team  submits  one  single  word  document  with  all  the  above  required  sections to Canvas by the due date.  Must have a title page to your document, including:
 * Course   Title   and   term:   CEN   4010   Principles   of   Software   Engineering, Semester and Year
 * Document name: Milestone 1 Project Proposal and High-level description
