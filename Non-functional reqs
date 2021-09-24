@@ -1,0 +1,59 @@
+List of Non-functional requirements
+
+Performance Requirements:
+
+1.	Responsiveness: The system will be operating on various monitor sizes and a wide variety of resolutions, from 1024 x 600 through 1900 x 1200 and will be responsive with all the variations.
+2.	Cycle Time: The cycle time at expected performance will be 1.0-1.2 with 5-10 concurrent users. The system is expected to operate with a 1.21 – 1.30 with a load of 11-25 concurrent users, or a moderate lag. With a concurrent user base of 26-45 the system will operate with a 1.31-1.50, or a heavy lag. The system will operate with 1.51 – 1.70 with a load of 46-50 concurrent users or a very heavy lag. Any number of concurrent users over 50 will cause system performance to halt until another user finishes.
+3.	Speed Per Transaction: The speed per transaction will be between 20 – 100 milliseconds, depending on cycle time. The system will be able to process anything between 10 – 50 transactions per second.
+4.	Test Requirements: The test requirements will mandate an expected load test, testing on all the functional specifications and their speed per transaction.
+5.	Reliability: Average time of 1 hour or less of downtime within a 3-month period. This downtime is used for maintenance or to update information. On release the system should be 100% operational for the first year of operation. 
+6.	Minimum Bug Counts: 
+•	No more than 10 bugs in the system during integration and testing.
+•	No more than 5 bugs remain in system after delivery.
+
+7.	Execution Speed: Execution speed of the home page using a high-speed internet connection should load within 100-200 milliseconds, depending on cycle time.
+8.	Storage Utilization: Storage utilization should be withing 75%-85% of available storage to avoid using all storage and causing technical issues if emergency storage is needed.
+9.	Robustness: Time to restart after a failure or crash should be under 1 hour. Probability of corruption of data on failure must be under 1%. Percentage of events to cause failures will be under 0.5%
+
+
+
+
+Ease of Use:
+
+1.	Training Time: Training time should be minimal or none at all as the site will be created to be very user friendly and should be able to be used by anyone who comes across it.
+Interoperability Requirements:
+1.	Browser Compatibility: The system will be a web-based app that operations on at least 2 of all the major web browsers, including Google Chrome, Mozilla, Firefox, Safari, and Internet Explorer. It will include functionality to provide alternatives if the browser does not have JavaScript installed on it.
+2.	Computer and OS compatibility: The system will operate on various types of operating systems including Windows, OS X and Linux. It will also be supported by any computer which can run a browser that is supported.
+Expected Load: 
+
+1.	We will make allowances for up to 50 concurrent users at once. Load testing will be done to record performance and cycle times during periods of high traffic. This includes testing during continuous or spiked patterns.
+Security Requirements:
+
+1.	Login/Password System: The system will have a login/password system to maintain the preferences, journey, accomplishments, and friends of our site. This will be implemented by creating a username and password at the start of each user’s journey. After creation it will be implemented to have a password confirmation. There will be a password retrieval system by security question if the user forgets their password which will allow retrieval of password by providing the correct answer.
+2.	Encryption: The website will not include encryption as no valuable information, such as social security numbers, will occur.
+3.	Access Control: Ability to access front-end and back-end code will be provided to everyone on the development team. Users and visitors will have limited access to using the system based on interface.
+4.	Spam Protection: The site will ask users to enter a string of characters shown in a picture to create an account to prevent bots from creating false accounts. 
+5.	Resource Utilization: Resources such as mySQL database will be accesses through the usernames and passwords given on the FAU lamp servers. The systems will use both bootstrap and jQuery and will document proper licenses or qualifications of each. 
+
+Portability Requirements:
+
+1.	Platform Compatibility: The system has plans to be developed as a web-base app. It is possible that in further versions, mobile and tablet compatibility could be implemented.
+2.	Percentage of Target-Dependent Statements: This version of the system will have 0% of statements that are target-dependent. In a future version for use on mobile and tablet, 30% of statements will be target dependent.
+Supportability Requirements:
+
+1.	Coding Standards: The system will be coded in a range of 75-80% of coding standards for HTML 5 and CSS3. The code will be produced, reviewed, tested, and reviewed again for efficiency purposes.
+2.	Naming Conventions: HTML classes and id tags will be coded in lowercase except in situations where there is more than one word in a name, then camelCase will be used. SQL tables and data names will be agreed on by the team and always use first letter capitalization and lowercase remaining letters.
+Storage Requirements:
+1.	The storage for our system will be on FAU Lamp servers holding our mySQL databases within an unknown capacity as well as holding our files for the actual website.
+Survivability:
+
+1.	Our system will be stored on FAU Lamp servers and any major files will be backed up on OneDrive to prevent loss in case of any physical destruction of servers.
+Availability Requirements:
+
+1.	Accessible Times: Our system will be available 24 hours of the day, 7 days a week. The site will be running if FAU lamp servers are available.
+2.	Downtime Impact: Down time will be minimal but will have a splash page informing that the system is down for maintenance. Scheduled down time will be announced ahead of time and is expected to be minimal.
+3.	Support: There will be help available by email that will filter to assigned developers. Emails will be responded to withing a 24-hour period.
+Fault Tolerance:
+
+1.	Exception Handling: There will be exception handling provided in all situations where an exception could occur. User will be provided with an explanation for the exception and have a chance to input correct answer or be taken back to the home page.
+2.	There will not be self-checking software implemented since this system is not critical enough to warrant it.
